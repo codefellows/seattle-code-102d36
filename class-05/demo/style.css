@@ -1,0 +1,99 @@
+body{
+    background-color:rgb(104, 96, 226);
+    margin: 0; 
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+header {
+    background-color: rgb(224, 206, 209);
+    height: 100px;
+}
+
+h1{
+    float: left;
+    margin-left: 20px;
+    margin-right: 50px;
+    color: red;
+    text-shadow: 5px 5px 5px white;
+}
+
+nav li{
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+nav li a {
+    color: darkgreen;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor:pointer;
+}
+
+nav li a:hover{
+    color:teal;
+    text-decoration:underline;
+    font-size: 22px;
+    
+}
+
+main {
+    width: 960px;
+    margin: 30px auto;
+    min-height: 700px;
+}
+
+#hero{
+    width: 960px;
+    height: 600px;
+    border: 3px solid black;
+    /* border-radius: 25px; */
+}
+
+#hero:hover{
+    border-radius: 0px;
+    border: 3px solid red;
+}
+
+main li img{
+    height: 150px;
+    width: 300px;
+}
+
+main li{
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+main li:last-child{
+    margin-right:0px;
+}
+
+main p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+footer{
+    text-align:center;
+    background-color: rgb(224, 206, 209);
+    height: 100px;
+    
+}
+
+footer p{
+    padding-top: 50px;
+}
