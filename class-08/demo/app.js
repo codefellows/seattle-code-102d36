@@ -34,11 +34,12 @@ function displayPicture() {
   
   // let spacePirateImg = "https://starwarsblog.starwars.com/wp-content/uploads/2017/03/darth-vader-1-cover-header.jpg";
   
-  let userResponse = prompt('Do you want to see a space pirate?');
+  let userResponse = prompt('Do you want to see a space pirate?').toLowerCase();
+  console.log(userResponse);
   // "YES" -> "yes"
-  if (userResponse.toLowerCase() == "yes") {
+  if (userResponse == "yes") {
     document.write('<img src="' + "https://starwarsblog.starwars.com/wp-content/uploads/2017/03/darth-vader-1-cover-header.jpg" + '">');
-  if (userResponse.toLowerCase() == "no"){
+  if (userResponse == "no"){
     let anotherChance = prompt("are you sure????????");
     if (anotherChance.toLowerCase() == "yes") {
       document.write('<img src="' + "https://starwarsblog.starwars.com/wp-content/uploads/2017/03/darth-vader-1-cover-header.jpg" + '">');
